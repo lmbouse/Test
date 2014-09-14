@@ -1,0 +1,298 @@
+/***********************
+ * GENERAL PAGE LAYOUT *
+ ***********************/
+#game{
+    position: relative;
+	top: 50px;
+	left: 100px;
+	background-color: #FFFFFF;
+	width: 435px;
+	height: 280px;
+}
+
+/***************************
+ * CHARACTER SELECT SCREEN *
+ ***************************/
+#char-select{
+	background: #FFFFFF url('../game/images/character-select.png') left top no-repeat;
+	position: relative;
+	width: 435px;
+	height: 280px;
+}
+
+#char-select .slot{
+	background: transparent url('../game/images/character-slot.png') left top no-repeat;
+	width: 92px;
+	height: 92px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 140px;
+}
+
+#char-select .slot .char-sprite{
+	background-position: -128px 0px;
+	position: relative;
+	top: 30px;
+	left: 30px;
+	width: 32px;
+	height: 32px;
+}
+
+#char-select .slot .char-info{
+	position: relative;
+	top: 40px;
+	left: 10px;
+	color: #5D4C26;
+	font-family: Cambria, Georgia, serif;
+	font-size: 12px;
+}
+
+
+/***************************
+ * CHARACTER CREATE SCREEN *
+ ***************************/
+#char-create{
+	background: #FFFFFF url('../game/images/character-select.png') left top no-repeat;
+	position: relative;
+	width: 435px;
+	height: 280px;
+}
+
+#char-create .char-avatar{
+	background: transparent url('../game/images/sprite_sheet.png') left top no-repeat;
+	float: left;
+	margin-top: 150px;
+	margin-left: 100px;
+	width: 32px;
+	height: 32px;
+}
+
+#char-create .char-info{
+	float: left;
+	margin-top: 140px;
+	margin-left: 15px;
+}
+
+#char-create .char-info .textLabel{
+	color: #5D4C26;
+	font-family: Cambria, Georgia, serif;
+	font-size: 12px;
+}
+
+#char-create .char-info .textLabel .textbox{
+	border: 0;
+	background: url('../game/images/textbox.png') top left no-repeat; 
+	width: 155px; 
+	height: 18px; 
+	margin-left: 5px;
+	font-size: 12px;  
+	color: #399;
+}
+
+#char-create .char-info .stats{
+	position: relative;
+}
+
+/*----------------------------------*
+ |        GAME MAP LAYOUTS          |
+ *----------------------------------*/
+ 
+ /*************************
+ * CHARACTER INFO SCREEN *
+ *************************/
+#char-info {
+	background: transparent url('../game/images/character-stats.png') no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+	background-color: #CFCFCF;
+	width: 435px;
+	height: 280px;
+}
+
+#char-info .charSprite{
+/* background, width, height calculated by char-info.php */
+	position: relative;
+	z-index: 250;
+	top: 60px;
+	left: 25px;
+}
+
+#char-info .charNameClassLvl{
+	position: absolute;
+	top: 35px;
+	left: 100px;
+	z-index: 250;
+	color: #5D4C26;
+	font-family: Cambria, Georgia, serif;
+	font-size: 12px;
+}
+
+#char-info .charHealth{
+	position: absolute;
+	top: 35px;
+	left: 200px;
+	color: #5D4C26;
+	font-family: Cambria, Georgia, serif;
+	font-size: 12px;
+}
+
+#char-info .charStats{
+	float: left;
+	clear: left;
+	margin-top: 75px;
+	margin-left: 50px;
+	color: #5D4C26;
+	font-family: Cambria, Georgia, serif;
+	font-size: 10px;
+}
+
+/*****************
+ * BATTLE SCREEN *
+ *****************/
+#battle{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+	background-color: #CFCFCF;
+	width: 435px;
+	height: 280px;
+}
+
+#battle .user{
+	position: absolute;
+	left: 20px;
+	bottom: 5px;
+}
+
+#battle .user .char{
+	position: absolute;
+	bottom: 50px;
+	left: 50px
+}
+
+#battle .user .health{
+
+}
+
+#battle .options{
+	z-index: 190;
+	background-color: #FFFFFF;
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+}
+
+#battle .mob{
+	position: relative;
+	top: 5px;
+}
+
+#battle .mob .mobInst{
+	position: absolute;
+	top: 5px;
+	right: 50px;
+}
+
+#battle .mob .health{
+	position: relative;
+	left: 50px;
+}
+
+#battle .mob .health .mobMaxHPBar{
+	position: absolute;
+	top: 25px;
+	height: 18px;
+	z-index: 230;
+}
+
+#battle .mob .health .mobHPBar{
+	position: absolute;
+	top: 27px;
+	height: 15px;
+	z-index: 235;
+}
+
+#battle .actionMsg{
+	position: absolute;
+	background-color: transparent;
+	z-index: 390;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#gameOver{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 435px;
+	height: 280px;
+	z-index: 500;
+	background-color: #000000;
+	display: none;
+}
+
+#gameOver .msg{
+	position: absolute;
+	left: -300px;
+	color: #F2F2F2;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+#gameOver .options{
+	position: relative;
+	top: 100px;
+	width: 130px;
+	margin: 0 auto;
+}
+
+#game-data{
+	width: 0px;
+	height: 0px;
+	border: 0px;
+}
+
+/******************* 
+ * COMMON ELEMENTS *
+ *******************/
+#user{
+	position: relative;
+	background-position: 0px 0px;
+	z-index: 150;
+}
+
+.charInfoBtn{
+	position: absolute;
+	z-index: 190;
+	background: transparent url('../game/images/charInfoBtn.png') left top no-repeat;
+	width: 32px;
+	height: 32px;
+	top: 5px;
+	left: 5px;
+}
+
+#gameMsg{
+	position: absolute;
+	z-index: 490;
+	width: 200px;
+	margin: 0 auto;
+	top: 100px;
+	display: none;
+}
+ 
+/************* 
+ *  TRAIN01  *
+ *************/
+#train01-map{
+	position: absolute;
+	z-index: 100;
+	height: 280px;
+	width: 435px; 
+ 	background: #FFFFFF url('../game/images/map-train01.png') left top no-repeat;
+}

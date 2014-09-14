@@ -1,0 +1,189 @@
+table{
+	border-collapse: collapse;
+}
+
+.register{
+	position: relative;
+	margin: 0 auto;
+	background: #FFFFFF url('../images/index-register.png') no-repeat top left;
+	width: 470px;
+	height: 184px;
+	border-radius: 0px 20px 20px 20px;
+	-moz-border-radius: 0px 20px 20px 20px; /* Firefox 3.6 and earlier */
+}
+
+/*BEGIN NEWS SECTION*/
+.news{
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+	background-color: #FFFFFF;
+	width: 470px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+.news a{
+	color: #E85856;
+}
+
+.news-header{
+	position: relative;
+	background: transparent url('../images/index-news-header.png') no-repeat top left;
+	top: -25px;
+	width: 159px;
+	height: 50px;
+}
+
+.news-entries{
+    position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.entry{
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.subject{
+	color: #333333;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.date{
+	background: transparent url('../images/index-news-date.png') no-repeat;
+	padding-left: 15px;
+	width: 78px;
+	height: 28px;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+
+.body{
+	color: #252525;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+
+.author{
+
+}
+
+
+/* END NEWS SECTION */
+
+
+
+
+/* BEGIN SLIDEBOX */
+
+.slidebox{
+	position: relative;
+	background-color: transparent;
+	width: 184px;
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+.slide-frame{
+	z-index: 100;
+	position: relative;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 184px;
+	height: 164px;
+	overflow: hidden;
+}
+
+.slides{
+	background: transparent url('../images/index-slides.png') ;
+	width: 552px;
+	height: 164px;
+	left: 0px;
+}
+/* The little colored squares that indicate which slide is currently displayed. */
+.selectors{
+	height: 18px;
+	margin-top: 5px;
+}
+
+.s1{
+	float: right;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	background-color: #FFFFFF;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+.s2{
+	float: right;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	background-color: #E85856;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+.s3{
+	float: right;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	background-color: #E85856;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+/* END SLIDEBOX */
+
+
+/*BEGIN PLAYER RANKS*/
+.ranks{
+	position: relative;
+	width: 184px;
+	background-color: #FFFFFF;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.ranks-header{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 179px;
+	height: 25px;
+	padding-left: 5px;
+	padding-top: 30px;
+	background-color: #64AAE8;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	
+	vertical-align: text-bottom;
+    font-family: Cambria, Georgia, serif;
+	font-weight: bold;
+	font-size: 14pt;
+	color: #FFFFFF;
+}
+
+.ranks-list{
+	position: relative;
+	padding-top: 10px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.l-even{
+	background-color: #CDCDCD;
+}
+
+.l-odd{
+}
+/*END PLAYER RANKS*/

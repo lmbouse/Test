@@ -1,0 +1,45 @@
+/********************* 
+ * LOGIN PAGE LAYOUT *
+ *********************/
+ #login{
+	position: relative;
+	left: 50px;
+	top: 50px;
+	width: 400px;
+	background-color: #FFFFFF;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.login-header{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 395px;
+	height: 30px;
+	padding-left: 5px;
+	padding-top: 30px;
+	background-color: #E85856;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	
+	vertical-align: text-bottom;
+    font-family: Cambria, Georgia, serif;
+	font-weight: bold;
+	font-size: 20pt;
+	color: #FFFFFF;
+}
+
+.login-info{
+	position: relative;
+	padding-top: 10px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/**************************
+ * LOGIN DROP-DOWN LAYOUT *
+ **************************/
+ 
